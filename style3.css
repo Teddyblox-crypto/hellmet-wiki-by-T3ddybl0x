@@ -1,13 +1,16 @@
 /* html thing. */
 html{
     background-color: lightseagreen;
-    min-width: 1000px;
-    max-width: 1000px;
+   height: 100%;
 }
 /* header and navigation /: and i hate the images):< */
 
 body {
     background-color: rgb(74, 122, 255);
+    width: 1200;
+    margin: 50px auto;
+    border: 5px solid lightblue;
+    box-shadow: 0 0 20px black;
 }
 header{
     background-color: skyblue;
@@ -26,7 +29,7 @@ h1{
 nav{
     background-color: skyblue;
     padding: 10px;
-
+    text-align: center;
 }
 .Nav{ /* epik navigation */
     background-color: dodgerblue;
@@ -80,7 +83,7 @@ h3{
     text-align: center;
 }
 .Creator:hover{
-    box-shadow: 5px 5px 5px 2px;
+    box-shadow: 5px 5px 5px 2px black;
     transition: 0.4s ease-in-out;
 }
 .Text{
@@ -112,3 +115,10 @@ h3{
     transition: 0.4s linear;
     box-shadow: 1px 1px 10px 1px red;
 }
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(79, 79, 246);
+    color: white;
+}
+/* Xdd */ 
