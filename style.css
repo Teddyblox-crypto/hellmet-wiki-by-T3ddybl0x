@@ -1,13 +1,16 @@
 /* html thing. */
 html{
     background-color: lightseagreen;
-    min-width: 1000px;
-    max-width: 1000px;
+    height: 100%;
 }
 /* header and navigation /: and i hate the images):< */
 
 body {
     background-color: rgb(74, 122, 255);
+    width: 1200px;
+    margin: 50px auto;
+    border: 5px solid rgb(8, 141, 185);
+    box-shadow: 0 0 20px black;
 }
 header{
     background-color: skyblue;
@@ -92,4 +95,9 @@ h3{
 .Text:hover{
     transition: 0.5s linear;
     box-shadow: 5px 5px 5px 5px rgb(146, 72, 72);
+}
+footer{
+    text-align: center;
+    background-color: lightblue;
+    padding: 15px;
 }
